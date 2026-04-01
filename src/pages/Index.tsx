@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingUp, Briefcase, DollarSign, BarChart3, Handshake } from "lucide-react";
+import { TrendingUp, Briefcase, DollarSign, BarChart3, Handshake } from "lucide-react";
 
 const services = [
   { icon: TrendingUp, text: "Growth strategy & business planning" },
@@ -31,14 +31,7 @@ const Index = () => {
             Strategic business & financial advisory for founders and executives ready to scale, raise capital, and create lasting value.
           </p>
 
-          <a
-            href="#book"
-            className="inline-flex items-center gap-2 bg-primary/80 text-primary-foreground px-8 py-3.5 rounded-full font-medium text-sm tracking-wide hover:bg-primary/90 transition-colors"
-          >
-            Book a Call <ArrowRight className="w-4 h-4" />
-          </a>
-
-          <div className="mt-10 w-full max-w-3xl rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
+          <div className="w-full max-w-3xl rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
             <iframe
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BThNwejjoOuNf05fe6sqLfhE5lKv5NHEF8TzrEg_HYOp9yOxb5tG-uVOjYhLnrMGT5-sl6mQ9?gv=true"
               style={{ border: 0 }}
