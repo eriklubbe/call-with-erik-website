@@ -17,7 +17,7 @@ const Index = () => {
           <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px]" />
         </div>
 
-        <div className="relative z-10 max-w-2xl mx-auto">
+        <div className="relative z-10 max-w-4xl mx-auto">
           <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5">
             <span className="text-primary text-sm font-body tracking-wide">Advisory & Fundraising</span>
           </div>
@@ -31,12 +31,12 @@ const Index = () => {
             Strategic business & financial advisory for founders and executives ready to scale, raise capital, and create lasting value.
           </p>
 
-          <div className="w-full max-w-3xl rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
+          <div className="w-full max-w-5xl mx-auto rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
             <iframe
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BThNwejjoOuNf05fe6sqLfhE5lKv5NHEF8TzrEg_HYOp9yOxb5tG-uVOjYhLnrMGT5-sl6mQ9?gv=true"
               style={{ border: 0 }}
               width="100%"
-              height="600"
+              height="800"
               frameBorder="0"
               title="Book a meeting with Erik"
               loading="lazy"
