@@ -36,7 +36,7 @@ const Index = () => {
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BThNwejjoOuNf05fe6sqLfhE5lKv5NHEF8TzrEg_HYOp9yOxb5tG-uVOjYhLnrMGT5-sl6mQ9?gv=true"
               style={{ border: 0 }}
               width="100%"
-              height="800"
+              height="1000"
               frameBorder="0"
               title="Book a meeting with Erik"
               loading="lazy"
