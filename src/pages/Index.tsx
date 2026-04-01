@@ -14,7 +14,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative flex flex-col items-center justify-center px-6 pt-20 pb-16 text-center">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px]" />
+          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/10 blur-[120px]" />
         </div>
 
         <div className="relative z-10 max-w-2xl mx-auto">
@@ -33,12 +33,12 @@ const Index = () => {
 
           <a
             href="#book"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-lg font-medium text-sm tracking-wide hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 bg-primary/80 text-primary-foreground px-8 py-3.5 rounded-full font-medium text-sm tracking-wide hover:bg-primary/90 transition-colors"
           >
             Book a Call <ArrowRight className="w-4 h-4" />
           </a>
 
-          <div className="mt-10 w-full max-w-3xl rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "var(--mint-glow)" }}>
+          <div className="mt-10 w-full max-w-3xl rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
             <iframe
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BThNwejjoOuNf05fe6sqLfhE5lKv5NHEF8TzrEg_HYOp9yOxb5tG-uVOjYhLnrMGT5-sl6mQ9?gv=true"
               style={{ border: 0 }}
