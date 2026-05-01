@@ -31,6 +31,10 @@ const Index = () => {
             Strategic business & financial advisory for founders and owners looking for insights, are ready to scale or want to raise capital
           </p>
 
+          <p className="text-muted-foreground font-light max-w-xl mx-auto mb-3">
+            Reach out via email or WhatsApp, or book a call directly below.
+          </p>
+
           <p className="text-muted-foreground font-light mb-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-1">
             <a href="mailto:erik@el-advisory.com" className="hover:text-primary transition-colors">erik@el-advisory.com</a>
             <a href="tel:+447751617432" className="hover:text-primary transition-colors">+44 7751 617432</a>
