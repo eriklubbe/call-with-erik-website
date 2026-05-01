@@ -28,7 +28,7 @@ const Index = () => {
           </h1>
 
           <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-6">
-            Finance Advisory and Fundraising support for SMEs and start-ups
+            Finance advisory and fundraising support for SMEs and start-ups
           </p>
 
           <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
