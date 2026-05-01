@@ -28,7 +28,7 @@ const Index = () => {
           </h1>
 
           <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-10">
-            Strategic business & financial advisory for founders and executives ready to scale, raise capital, and create lasting value.
+            Strategic business & financial advisory for founders and owners looking for insights, are ready to scale or want to raise capital
           </p>
 
           <div className="w-full max-w-5xl mx-auto rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
