@@ -31,14 +31,26 @@ const Index = () => {
             Strategic business & financial advisory for founders and owners looking for insights, are ready to scale or want to raise capital
           </p>
 
-          <p className="text-muted-foreground font-light max-w-xl mx-auto mb-3">
-            Reach out via email or WhatsApp, or book a call directly below.
+          <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
+            Reach out or book a time below.
           </p>
 
-          <p className="text-muted-foreground font-light mb-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-1">
-            <a href="mailto:erik@el-advisory.com" className="hover:text-primary transition-colors">erik@el-advisory.com</a>
-            <a href="https://wa.me/447751617432" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">+44 7751 617432</a>
-          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
+            <a
+              href="mailto:erik@el-advisory.com"
+              className="px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-body tracking-wide hover:bg-primary/10 hover:border-primary/50 transition-colors"
+            >
+              erik@el-advisory.com
+            </a>
+            <a
+              href="https://wa.me/447751617432"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-body tracking-wide hover:bg-primary/10 hover:border-primary/50 transition-colors"
+            >
+              WhatsApp +44 7751 617432
+            </a>
+          </div>
 
           <div className="w-full max-w-5xl mx-auto rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
             <iframe
