@@ -27,8 +27,13 @@ const Index = () => {
             <span className="text-primary animate-mint-shimmer inline-block">Erik</span>
           </h1>
 
-          <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-10">
+          <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-6">
             Strategic business & financial advisory for founders and owners looking for insights, are ready to scale or want to raise capital
+          </p>
+
+          <p className="text-muted-foreground font-light mb-10 flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-1">
+            <a href="mailto:erik@el-advisory.com" className="hover:text-primary transition-colors">erik@el-advisory.com</a>
+            <a href="tel:+447751617432" className="hover:text-primary transition-colors">+44 7751 617432</a>
           </p>
 
           <div className="w-full max-w-5xl mx-auto rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
