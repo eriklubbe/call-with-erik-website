@@ -28,7 +28,7 @@ const Index = () => {
           </h1>
 
           <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-6">
-            Strategic business & financial advisory for founders and owners looking for insights, are ready to scale or want to raise capital
+            Financial and business advisory and fundraising support for SMEs & Start-ups
           </p>
 
           <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
