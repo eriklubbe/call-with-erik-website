@@ -32,7 +32,7 @@ const Index = () => {
           </p>
 
           <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
-            Reach out or book a time below.
+            Reach out or book a call below.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
