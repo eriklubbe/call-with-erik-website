@@ -21,7 +21,7 @@ const Index = () => {
             Finance and business advisory
           </p>
 
-          <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
+          <p className="text-muted-foreground font-light text-lg max-w-xl mx-auto mb-4">
             Reach out or book a call below.
           </p>
 
@@ -54,7 +54,7 @@ const Index = () => {
             />
           </div>
 
-          <p className="text-muted-foreground font-light text-sm mt-8">
+          <p className="text-muted-foreground font-light text-lg mt-8">
             More on what I do at{" "}
             <a
               href="https://el-advisory.com"
