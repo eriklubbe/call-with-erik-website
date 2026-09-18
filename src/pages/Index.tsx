@@ -44,7 +44,7 @@ const Index = () => {
 
           <div className="w-full max-w-2xl mx-auto rounded-xl overflow-hidden border border-border/50 bg-white" style={{ boxShadow: "0 0 80px rgba(120, 170, 140, 0.15)" }}>
             <iframe
-              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BThNwejjoOuNf05fe6sqLfhE5lKv5NHEF8TzrEg_HYOp9yOxb5tG-uVOjYhLnrMGT5-sl6mQ9?gv=true"
+              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1eDvbs0O9O1CLgDW8spfM8XkcV86_ur8_pCrvC5dfRdPgYDuGZzam-7eWHORvE_FjqXh0GdOyj?gv=true"
               style={{ border: 0 }}
               width="100%"
               height="600"
