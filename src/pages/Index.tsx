@@ -1,13 +1,3 @@
-import { TrendingUp, Briefcase, DollarSign, BarChart3, Handshake } from "lucide-react";
-
-const services = [
-  { icon: TrendingUp, text: "Growth strategy & business planning" },
-  { icon: DollarSign, text: "Fundraising & investor readiness" },
-  { icon: BarChart3, text: "Financial modeling & analysis" },
-  { icon: Briefcase, text: "M&A advisory & deal structuring" },
-  { icon: Handshake, text: "Board advisory & stakeholder management" },
-];
-
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -28,7 +18,7 @@ const Index = () => {
           </h1>
 
           <p className="text-muted-foreground text-lg sm:text-xl font-light leading-relaxed max-w-xl mx-auto mb-6">
-            Finance advisory and fundraising support for SMEs and start-ups
+            Finance and business advisory
           </p>
 
           <p className="text-muted-foreground font-light max-w-xl mx-auto mb-4">
@@ -64,33 +54,6 @@ const Index = () => {
             />
           </div>
         </div>
-      </section>
-
-      {/* Divider */}
-      <div className="flex justify-center">
-        <div className="w-16 h-px bg-primary/40" />
-      </div>
-
-      {/* Services */}
-      <section className="max-w-2xl mx-auto px-6 py-20">
-        <h2 className="font-display text-2xl sm:text-3xl font-medium text-center mb-12">
-          How I Help
-        </h2>
-
-        <ul className="space-y-5">
-          {services.map((service, i) => (
-            <li
-              key={i}
-              className="flex items-center gap-4 p-4 rounded-lg bg-card/50 border border-border/50 opacity-0 animate-fade-in-up"
-              style={{ animationDelay: `${i * 120}ms` }}
-            >
-              <div className="flex-shrink-0 w-10 h-10 rounded-md bg-primary/10 flex items-center justify-center">
-                <service.icon className="w-5 h-5 text-primary" />
-              </div>
-              <span className="text-foreground font-body text-base">{service.text}</span>
-            </li>
-          ))}
-        </ul>
       </section>
 
       {/* Footer */}
