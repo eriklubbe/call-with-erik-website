@@ -28,7 +28,7 @@ const Index = () => {
           <div className="flex flex-wrap items-center justify-center gap-3 mb-10">
             <a
               href="mailto:erik@el-advisory.com"
-              className="px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-body tracking-wide hover:bg-primary/10 hover:border-primary/50 transition-colors"
+              className="px-5 py-2 rounded-full border border-white bg-white/5 text-white text-base sm:text-lg font-body tracking-wide hover:bg-white/15 transition-colors"
             >
               erik@el-advisory.com
             </a>
@@ -36,7 +36,7 @@ const Index = () => {
               href="https://wa.me/447751617432"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-body tracking-wide hover:bg-primary/10 hover:border-primary/50 transition-colors"
+              className="px-5 py-2 rounded-full border border-white bg-white/5 text-white text-base sm:text-lg font-body tracking-wide hover:bg-white/15 transition-colors"
             >
               WhatsApp +44 7751 617432
             </a>
@@ -53,6 +53,18 @@ const Index = () => {
               loading="lazy"
             />
           </div>
+
+          <p className="text-muted-foreground font-light text-sm mt-8">
+            More on what I do at{" "}
+            <a
+              href="https://el-advisory.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              el-advisory.com
+            </a>
+          </p>
         </div>
       </section>
 
