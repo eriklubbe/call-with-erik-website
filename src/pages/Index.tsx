@@ -54,17 +54,15 @@ const Index = () => {
             />
           </div>
 
-          <p className="text-muted-foreground font-light text-lg mt-8">
+          <a
+            href="https://el-advisory.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-8 px-6 py-3 rounded-full border border-primary/30 bg-primary/5 text-primary text-xl font-light tracking-wide hover:bg-primary/10 hover:border-primary/50 transition-colors"
+          >
             More on what I do at{" "}
-            <a
-              href="https://el-advisory.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              el-advisory.com
-            </a>
-          </p>
+            <span className="whitespace-nowrap">el-advisory.com</span>
+          </a>
         </div>
       </section>
 
